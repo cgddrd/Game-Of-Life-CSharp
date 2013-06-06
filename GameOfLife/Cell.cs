@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GameOfLife.Engine.Base;
 
-namespace GameOfLife
+namespace GameOfLife.Engine
 {
     public class Cell : CellInterface
     {
@@ -15,6 +15,7 @@ namespace GameOfLife
         public int columnIndex { get; set; }
 
         public bool isAlive { get; set; }
+
 
     }
 }
