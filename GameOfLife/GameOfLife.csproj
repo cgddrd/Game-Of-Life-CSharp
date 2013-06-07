@@ -41,26 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cell.cs" />
-    <Compile Include="CellRule.cs" />
-    <Compile Include="DeadCellRule.cs" />
-    <Compile Include="Evolution.cs" />
-    <Compile Include="GameOfLife.cs" />
-    <Compile Include="GameOfLifeInterface.cs" />
-    <Compile Include="GameRuleInterface.cs" />
-    <Compile Include="GameRules.cs" />
-    <Compile Include="GridExtensions.cs" />
-    <Compile Include="GridInterface.cs" />
-    <Compile Include="Grid.cs" />
-    <Compile Include="CellInterface.cs" />
-    <Compile Include="CellRuleInterface.cs" />
-    <Compile Include="EvolutionInterface.cs" />
-    <Compile Include="GridParser.cs" />
-    <Compile Include="GridParserInterface.cs" />
-    <Compile Include="GridUIExtensions.cs" />
-    <Compile Include="LiveCellRule.cs" />
-    <Compile Include="NeighbourCalculator.cs" />
-    <Compile Include="NeighbourCalculatorInterface.cs" />
+    <Compile Include="Engine\Cell.cs" />
+    <Compile Include="Engine\Base\CellRule.cs" />
+    <Compile Include="Engine\DeadCellRule.cs" />
+    <Compile Include="Engine\Evolution.cs" />
+    <Compile Include="UI\GameOfLife.cs" />
+    <Compile Include="UI\Base\GameOfLifeInterface.cs" />
+    <Compile Include="Engine\Base\GameRuleInterface.cs" />
+    <Compile Include="Engine\GameRules.cs" />
+    <Compile Include="Engine\GridExtensions.cs" />
+    <Compile Include="Engine\Base\GridInterface.cs" />
+    <Compile Include="Engine\Grid.cs" />
+    <Compile Include="Engine\Base\CellInterface.cs" />
+    <Compile Include="Engine\Base\CellRuleInterface.cs" />
+    <Compile Include="Engine\Base\EvolutionInterface.cs" />
+    <Compile Include="UI\GridParser.cs" />
+    <Compile Include="UI\Base\GridParserInterface.cs" />
+    <Compile Include="UI\GridUIExtensions.cs" />
+    <Compile Include="Engine\LiveCellRule.cs" />
+    <Compile Include="Engine\NeighbourCalculator.cs" />
+    <Compile Include="Engine\Base\NeighbourCalculatorInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
